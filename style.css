@@ -13,6 +13,8 @@ body {
     display: flex;
     position: relative;
     left: 9%;
+    border-top: 1.063rem solid #121629;
+    border-radius: 0.3125rem;
 }
 .white {
     height:16em;
@@ -37,10 +39,7 @@ body {
     color: #ffffff;
     display: inline-block;
     position: relative;
-    right: 10%;
     z-index: 1;
-    left: -148px;
-    bottom: 52px;
 }
 .black {
     height:8em;
@@ -70,21 +69,18 @@ body {
     position: relative;
     top: 10vh;
 }
-/*kbd.black:nth-child(1) {*/
-/*    right: 54px;*/
-/*}*/
-kbd.black:nth-child(2) {
+kbd.black:nth-child(1) {
     right: 15vw;
 }
+kbd.black:nth-child(2) {
+    right: 13.3vw;
+}
 kbd.black:nth-child(3) {
-    right: 13vw;
+    right: 8vw;
 }
 kbd.black:nth-child(4) {
-    right: 105px;
+    right: 6vw;
 }
 kbd.black:nth-child(5) {
-    right: 5.5vw;
-}
-kbd.black:nth-child(6) {
-    right: 51px;
+    right: 4.5vw;
 }
